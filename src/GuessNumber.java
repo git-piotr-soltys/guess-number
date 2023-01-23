@@ -5,7 +5,7 @@ public class GuessNumber {
     public static void main(String[] args) {
         Random rand = new Random();
         int newRandomNumber = rand.nextInt(100);
-        System.out.println(" Welcome to a very simple guess number game.");
+        System.out.println(" Welcome to a very simple guess number game!");
         System.out.println(" New integer has been generated. Guess this number.");
 
         boolean play = true;
